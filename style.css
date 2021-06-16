@@ -1,0 +1,9 @@
+/*
+--> This is a demonstration for universal selector
+--> This selector will add the css to the whole web page...
+--> This is  */
+*
+{
+background: black;
+color:  red;
+}
