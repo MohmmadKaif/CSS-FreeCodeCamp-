@@ -1,14 +1,15 @@
 /*This is a css file*/
 
-/*Defining the CSS FILE*/
-.SAYYED
+/*Defining the ID's here*/
+
+#SAYYED
 {
-color:  red;
-background-color: black;
+	background-color: black;
+	color:  red;
 }
 
-.KAIF
+#KAIF
 {
-    background-color: red;
-	color: black;
+	background-color:red;
+	color:  black;
 }
