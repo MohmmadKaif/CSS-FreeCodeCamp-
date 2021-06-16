@@ -1,9 +1,14 @@
-/*
---> This is a demonstration for universal selector
---> This selector will add the css to the whole web page...
---> This is  */
-*
+/*This is a css file*/
+
+/*Defining the CSS FILE*/
+.SAYYED
 {
-background: black;
 color:  red;
+background-color: black;
+}
+
+.KAIF
+{
+    background-color: red;
+	color: black;
 }
