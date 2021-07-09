@@ -1,32 +1,29 @@
-/* 
-1) Here we are defining the css for both divs...
-2) Here if you look closely you will observe that em vlaue depends on parent class.
-3) If Parent class does not have attributes then it depends on default browser settings....
+/*
+1) Here you can see the demonstration of vh and vw.
+2)                                                      
 */
-
-.Default
+.ALTAF
 {
-    font-size: 2em;/*Here if you see in browser the 2em value is reletive to defult browser settings..*/
+  background: red;
+  width: 25vw;
+  height: 5vh; 
+}
+
+.KAIF
+{
+  background: black;
+  width: 25vw;/*setting the vw value..*/
+  height: 5vh;/*setting the vh value..*/
+}
+
+.SAYYED
+{
+  background: #ffce00;
+  width: 25vw;
+  height: 5vh; 
+}
  
-}
-
-.parent
-{
-   font-size: 50px;
-}
-
-html
-{
-   font-size: 50px;
-}
-.child1
-{
-	font-size:  1rem; /*Here you can see that rem depends on html element*/ 
-}
+ 
 
 
 
-
-/* The conclusion are 
-   1) rem values always depends on the root element which is HTML..
-*/
