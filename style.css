@@ -15,18 +15,18 @@
    font-size: 50px;
 }
 
+html
+{
+   font-size: 50px;
+}
 .child1
 {
-	font-size:  2em;  /*Here if ou see i browser then you can  see 2em value is reletive to parent class which provides css to div in our html page*/
+	font-size:  1rem; /*Here you can see that rem depends on html element*/ 
 }
 
-.child2
-{
-	font-size: 20px;
-}
+
 
 
 /* The conclusion are 
-   1) em values depend on css of parent element..
-   2) if parent element does not have css then it depends on default browser settings..
-   */
+   1) rem values always depends on the root element which is HTML..
+*/
