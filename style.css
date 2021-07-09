@@ -1,24 +1,32 @@
 /* 
 1) Here we are defining the css for both divs...
-2) If You look closely for class inner we have used % for difining the hieght and width.
-3) This % sign is reletive to the parent class...
-4) This means if in parent class hieght is 400px then reletivley height of child class will be 50% i.e 200px...
-5) This is the concept of Reletivity in CSS.. 
+2) Here if you look closely you will observe that em vlaue depends on parent class.
+3) If Parent class does not have attributes then it depends on default browser settings....
 */
 
-
-.outer
+.Default
 {
+    font-size: 2em;/*Here if you see in browser the 2em value is reletive to defult browser settings..*/
+ 
+}
 
-background: red;
-height: 500px;
-width: 500px;
+.parent
+{
+   font-size: 50px;
+}
+
+.child1
+{
+	font-size:  2em;  /*Here if ou see i browser then you can  see 2em value is reletive to parent class which provides css to div in our html page*/
+}
+
+.child2
+{
+	font-size: 20px;
 }
 
 
-.inner
-{
- background: darkgrey;
- width: 50%;
- height: 50%; 
-}
+/* The conclusion are 
+   1) em values depend on css of parent element..
+   2) if parent element does not have css then it depends on default browser settings..
+   */
