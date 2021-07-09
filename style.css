@@ -1,15 +1,24 @@
-/*This is a css file*/
+/* 
+1) Here we are defining the css for both divs...
+2) If You look closely for class inner we have used % for difining the hieght and width.
+3) This % sign is reletive to the parent class...
+4) This means if in parent class hieght is 400px then reletivley height of child class will be 50% i.e 200px...
+5) This is the concept of Reletivity in CSS.. 
+*/
 
-/*Defining the ID's here*/
 
-#SAYYED
+.outer
 {
-	background-color: black;
-	color:  red;
+
+background: red;
+height: 500px;
+width: 500px;
 }
 
-#KAIF
+
+.inner
 {
-	background-color:red;
-	color:  black;
+ background: darkgrey;
+ width: 50%;
+ height: 50%; 
 }
